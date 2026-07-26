@@ -221,6 +221,13 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 </table>
 
 <table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/kuro-chibi--kuroneko-night">Kuro Chibi</a> · by <a href="https://github.com/KuroNeko-night">@KuroNeko-night</a> · Game Characters · v2</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- kuro-chibi--kuroneko-night</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/idle.gif" alt="Kuro Chibi idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waving.gif" alt="Kuro Chibi waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/running-right.gif" alt="Kuro Chibi running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waiting.gif" alt="Kuro Chibi waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/review.gif" alt="Kuro Chibi review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>Name</th><td colspan="5"><a href="./pets/lappland--chenxin-dlut">Lappland</a> · by <a href="https://github.com/chenxin-dlut">@chenxin-dlut</a> · Game Characters · v1</td></tr>
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- lappland--chenxin-dlut</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
@@ -726,13 +733,6 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- joker--oytyo</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/idle.gif" alt="Joker idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/waving.gif" alt="Joker waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/running-right.gif" alt="Joker running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/waiting.gif" alt="Joker waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/review.gif" alt="Joker review" width="120" height="130"></td></tr>
-</table>
-
-<table>
-<tr><th>Name</th><td colspan="5"><a href="./pets/kuro-chibi--kuroneko-night">Kuro Chibi</a> · by <a href="https://github.com/KuroNeko-night">@KuroNeko-night</a> · Original Characters · v2</td></tr>
-<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- kuro-chibi--kuroneko-night</code></td></tr>
-<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
-<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/idle.gif" alt="Kuro Chibi idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waving.gif" alt="Kuro Chibi waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/running-right.gif" alt="Kuro Chibi running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waiting.gif" alt="Kuro Chibi waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/review.gif" alt="Kuro Chibi review" width="120" height="130"></td></tr>
 </table>
 
 <table>

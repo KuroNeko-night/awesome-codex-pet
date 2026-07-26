@@ -221,6 +221,13 @@ curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scr
 </table>
 
 <table>
+<tr><th>名称</th><td colspan="5"><a href="../../pets/kuro-chibi--kuroneko-night">Kuro Q版</a> · 作者 <a href="https://github.com/KuroNeko-night">@KuroNeko-night</a> · 游戏角色 · v2</td></tr>
+<tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- kuro-chibi--kuroneko-night</code></td></tr>
+<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
+<tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/idle.gif" alt="Kuro Q版 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waving.gif" alt="Kuro Q版 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/running-right.gif" alt="Kuro Q版 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waiting.gif" alt="Kuro Q版 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/review.gif" alt="Kuro Q版 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>名称</th><td colspan="5"><a href="../../pets/lappland--chenxin-dlut">拉普兰德</a> · 作者 <a href="https://github.com/chenxin-dlut">@chenxin-dlut</a> · 游戏角色 · v1</td></tr>
 <tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- lappland--chenxin-dlut</code></td></tr>
 <tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
@@ -726,13 +733,6 @@ curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scr
 <tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- joker--oytyo</code></td></tr>
 <tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
 <tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/idle.gif" alt="Joker idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/waving.gif" alt="Joker waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/running-right.gif" alt="Joker running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/waiting.gif" alt="Joker waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/joker--oytyo/gifs/review.gif" alt="Joker review" width="120" height="130"></td></tr>
-</table>
-
-<table>
-<tr><th>名称</th><td colspan="5"><a href="../../pets/kuro-chibi--kuroneko-night">Kuro Q版</a> · 作者 <a href="https://github.com/KuroNeko-night">@KuroNeko-night</a> · 原创角色 · v2</td></tr>
-<tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- kuro-chibi--kuroneko-night</code></td></tr>
-<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
-<tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/idle.gif" alt="Kuro Q版 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waving.gif" alt="Kuro Q版 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/running-right.gif" alt="Kuro Q版 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/waiting.gif" alt="Kuro Q版 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/kuro-chibi--kuroneko-night/gifs/review.gif" alt="Kuro Q版 review" width="120" height="130"></td></tr>
 </table>
 
 <table>
