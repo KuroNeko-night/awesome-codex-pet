@@ -126,7 +126,7 @@ export function HeroSection({
             </Link>
             <Link
               className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-border bg-bg/60 backdrop-blur text-sm font-medium text-text hover:bg-surface transition-colors"
-              href="/guide"
+              href={locale === "zh" ? "/zh/request" : "/request"}
             >
               {t("heroSubmit")}
               <svg

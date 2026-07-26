@@ -56,9 +56,9 @@ export function SiteFooter() {
               <li>
                 <Link
                   className="text-muted hover:text-text transition-colors"
-                  href="/guide"
+                  href={locale === "zh" ? "/zh/request" : "/request"}
                 >
-                  {t("guide")}
+                  {t("requestPet")}
                 </Link>
               </li>
               <li>
@@ -95,7 +95,7 @@ export function SiteFooter() {
                   className="text-muted hover:text-text transition-colors"
                   href="/guide"
                 >
-                  {t("submitPet")}
+                  {t("guide")}
                 </Link>
               </li>
               <li>

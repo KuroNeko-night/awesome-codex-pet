@@ -7,12 +7,13 @@ export const translations = {
     collections: "Collections",
     install: "Install",
     guide: "Craft Guide",
+    requestPet: "Request a Pet",
     docs: "Docs",
     github: "GitHub",
-    submitPet: "Submit a Pet",
+    submitPet: "Request / Submit",
     requestPetWithAI: "Ask the community to make a pet",
     requestPetWithAIDesc:
-      "No finished pet yet? Share the character, references, and requirements so community contributors or AI can make it for you.",
+      "Submit a free character request. A community contributor may volunteer to make it; delivery is not guaranteed.",
     submitPetWithAI: "Submit your pet",
     submitPetWithAIDesc:
       "Open local Codex to create from references or review existing files, then open a focused pull request.",
@@ -28,12 +29,12 @@ export const translations = {
 
     // Hero
     heroBadge: "{count} carefully selected pets",
-    heroTitle1: "Discover beautifully made",
-    heroTitle2: "Codex pets",
+    heroTitle1: "Your free community",
+    heroTitle2: "Codex pet gallery",
     heroDesc:
-      "A selective gallery of community-made Codex companions. Inspect every animation, meet the creator, and install your favorite in one step.",
-    heroExplore: "Choose a pet",
-    heroSubmit: "Submit your pet",
+      "Browse community-made companions like a free pet store: preview every animation, install a favorite in one step, or request a character you want the community to make.",
+    heroExplore: "Browse and install",
+    heroSubmit: "Request a character",
     heroStatPets: "Selected pets",
     heroStatCategories: "Categories",
     heroStatLicense: "Open source",
@@ -378,12 +379,13 @@ export const translations = {
     collections: "合集",
     install: "安装",
     guide: "制作指南",
+    requestPet: "制作申请",
     docs: "文档",
     github: "GitHub",
-    submitPet: "投稿",
+    submitPet: "申请 / 投稿",
     requestPetWithAI: "请社区帮我制作宠物",
     requestPetWithAIDesc:
-      "还没有成品时，提交角色、参考图和制作要求，请社区贡献者或 AI 帮你完成宠物。",
+      "免费提交角色与参考图，社区贡献者可能会志愿制作，但不承诺交付。",
     submitPetWithAI: "提交自己的宠物",
     submitPetWithAIDesc:
       "打开本地 Codex，可从参考图现场制作，也可检查现成文件并创建独立 PR。",
@@ -398,12 +400,12 @@ export const translations = {
 
     // Hero
     heroBadge: "已收录 {count} 只精品宠物",
-    heroTitle1: "发现值得收藏的",
-    heroTitle2: "Codex 宠物",
+    heroTitle1: "免费的社区",
+    heroTitle2: "Codex 小宠物画廊",
     heroDesc:
-      "从角色还原、动作表现到透明边缘都经过筛选。先看完整动画，再把喜欢的伙伴一键带回 Codex。",
-    heroExplore: "挑选宠物",
-    heroSubmit: "投稿精品宠物",
+      "像逛免费小宠物商店一样预览完整动画，一键安装喜欢的动漫、游戏或原创伙伴；没有想要的角色，还可以提交社区制作申请。",
+    heroExplore: "浏览并安装",
+    heroSubmit: "申请喜欢的角色",
     heroStatPets: "精品收录",
     heroStatCategories: "分类数",
     heroStatLicense: "开源许可",

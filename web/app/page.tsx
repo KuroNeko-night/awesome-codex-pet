@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
-    absolute: `${siteConfig.title} — custom pets for OpenAI Codex`,
+    absolute: `${siteConfig.title} — free Codex pet gallery and community`,
   },
   description: siteConfig.description,
   alternates: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${siteConfig.title} — custom pets for OpenAI Codex`,
+    title: `${siteConfig.title} — free Codex pet gallery and community`,
     description: siteConfig.description,
     url: siteConfig.url,
     type: "website",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.title} — custom pets for OpenAI Codex`,
+    title: `${siteConfig.title} — free Codex pet gallery and community`,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
   },
@@ -62,6 +62,24 @@ export default function HomePage() {
           "@id": `${siteConfig.url}/#website`,
         },
         inLanguage: ["en", "zh-CN"],
+        isAccessibleForFree: true,
+        potentialAction: [
+          {
+            "@type": "ViewAction",
+            name: "Browse free Codex pets",
+            target: `${siteConfig.url}/#gallery`,
+          },
+          {
+            "@type": "InstallAction",
+            name: "Install a Codex pet",
+            target: `${siteConfig.url}/install`,
+          },
+          {
+            "@type": "CreateAction",
+            name: "Request a character from the community",
+            target: `${siteConfig.url}/request`,
+          },
+        ],
         mainEntity: {
           "@type": "ItemList",
           name: "Curated Codex pets",
@@ -82,7 +100,7 @@ export default function HomePage() {
         name: "Awesome Codex Pet catalog",
         alternateName: "Codex 宠物目录",
         description:
-          "A machine-readable catalog of curated community Codex pets, creators, localized names, categories, animation versions, licenses, previews, and installation commands.",
+          "A machine-readable catalog of free-to-browse community Codex pets, creators, localized names, categories, animation versions, licenses, previews, and one-step installation commands.",
         url: siteConfig.url,
         creator: {
           "@id": `${siteConfig.url}/#organization`,

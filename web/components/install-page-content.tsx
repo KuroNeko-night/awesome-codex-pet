@@ -7,12 +7,11 @@ import { ChatGPTIcon } from "@/components/chatgpt-icon";
 import { CopyCommandButton } from "@/components/copy-command-button";
 import { useLocale } from "@/components/locale-provider";
 import { buildChatGPTUrl, getInstallGuidePrompt } from "@/lib/codex-links";
-
-const PLACEHOLDER = "<pet-slug--author-slug>";
-
-const bashCommand = `curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- ${PLACEHOLDER}`;
-const pwshCommand = `powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet ${PLACEHOLDER}"`;
-const localCommand = `npm run install:pet -- ${PLACEHOLDER}`;
+import {
+  BASH_INSTALL_COMMAND,
+  LOCAL_INSTALL_COMMAND,
+  POWERSHELL_INSTALL_COMMAND,
+} from "@/lib/install";
 
 type InstallMethod = "bash" | "powershell" | "local";
 
@@ -25,7 +24,7 @@ export function InstallPageContent() {
       marker: ">_",
       label: t("installBashLabel"),
       tip: t("installBashTip"),
-      command: bashCommand,
+      command: BASH_INSTALL_COMMAND,
       copyLabel: t("copyBashInstall"),
       recommended: true,
     },
@@ -34,7 +33,7 @@ export function InstallPageContent() {
       marker: "PS",
       label: t("installPwshLabel"),
       tip: t("installPwshTip"),
-      command: pwshCommand,
+      command: POWERSHELL_INSTALL_COMMAND,
       copyLabel: t("copyPowerShell"),
       recommended: false,
     },
@@ -43,7 +42,7 @@ export function InstallPageContent() {
       marker: "JS",
       label: t("installNodeLabel"),
       tip: t("installNodeTip"),
-      command: localCommand,
+      command: LOCAL_INSTALL_COMMAND,
       copyLabel: t("installNodeLabel"),
       recommended: false,
     },

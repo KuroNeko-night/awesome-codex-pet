@@ -10,7 +10,14 @@ const description =
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: "/install" },
+  alternates: {
+    canonical: "/install",
+    languages: {
+      "en-US": "/install",
+      "zh-CN": "/zh/install",
+      "x-default": "/install",
+    },
+  },
   keywords: [
     "install Codex pet",
     "how to install Codex pet",

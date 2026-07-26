@@ -15,6 +15,8 @@ jobs:
       deployments: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      NEXT_PUBLIC_BING_SITE_VERIFICATION: ${{ secrets.BING_SITE_VERIFICATION }}
+      NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ secrets.GOOGLE_SITE_VERIFICATION }}
       NEXT_PUBLIC_SITE_URL: "https://codexpet.top"
 
     steps:
@@ -56,9 +58,22 @@ jobs:
             --production-branch=main 2>/dev/null || \
             echo "Project already exists, skipping create."
 
+      - name: Ensure canonical www domain is attached
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node web/scripts/ensure-pages-domain.mjs www.codexpet.top
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy web/out --project-name=awesome-codex-pet --branch=main --commit-dirty=true
+
+      - name: Verify AI search access
+        run: node web/scripts/check-ai-search-access.mjs
+
+      - name: Notify IndexNow
+        continue-on-error: true
+        run: node web/scripts/submit-indexnow.mjs web/out/sitemap.xml

@@ -1,5 +1,5 @@
-name: Request a pet
-description: Request that AI or the community create a new Codex pet
+name: Request a pet for free
+description: Submit a free request that a community contributor may volunteer to make
 title: "[Request]: "
 labels:
   - "type: request"
@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         <!-- pet-flow: request -->
-        Start with a character or idea; a finished spritesheet is not required. The recommended path is **Request a pet with Codex** on [codexpet.top](https://codexpet.top), or copy the provided prompt for another AI assistant. The workflow checks the catalog and prepares this issue for you.
+        Submitting a request is free, and a finished spritesheet is not required. A community contributor may volunteer to create and publish the pet for free, but a request is not an acceptance, delivery, or completion-time promise. The recommended path is **Request a pet with Codex** on [codexpet.top/request](https://codexpet.top/request), or copy the provided prompt for another AI assistant. The workflow checks the catalog and prepares this issue for you.
   - type: input
     id: character
     attributes:

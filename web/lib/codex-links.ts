@@ -22,7 +22,7 @@ export function getPetRequestPrompt(locale: Locale) {
   if (locale === "zh") {
     return `请全程使用中文，帮我向 Awesome Codex Pet 请求制作一只 Codex 宠物。仓库：${repositoryUrl}。
 
-这个流程的目标是创建一条清楚、可执行的 GitHub Issue，不需要克隆仓库，也不要直接创建 Pull Request。
+这个流程的目标是免费提交一条清楚、可执行的 GitHub Issue，不需要克隆仓库，也不要直接创建 Pull Request。社区贡献者可能会志愿认领并免费制作，但申请不代表承诺收录、交付或完成时间。
 
 执行要求：
 1. 通过 GitHub API 或网页读取仓库的 pets.json、collections.json 和现有 Issues，先检查相同角色或概念是否已经存在；不要为了查重克隆整个仓库。
@@ -39,7 +39,7 @@ export function getPetRequestPrompt(locale: Locale) {
 
   return `Use English throughout this task. Help me request a new Codex pet from Awesome Codex Pet at ${repositoryUrl}.
 
-The goal is a clear, actionable GitHub issue. Do not clone the repository and do not open a pull request yet.
+The goal is a free, clear, actionable GitHub issue. Do not clone the repository and do not open a pull request yet. A community contributor may volunteer to create the pet for free, but a request is not a promise of acceptance, delivery, or completion time.
 
 Requirements:
 1. Use the GitHub API or website to inspect pets.json, collections.json, and existing issues for the same character or concept. Do not clone the full repository for duplicate research.

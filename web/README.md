@@ -87,15 +87,28 @@ npx wrangler pages deploy out --project-name=awesome-codex-pet
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | _unset_                                                | Google Search Console verification |
 | `NEXT_PUBLIC_BING_SITE_VERIFICATION`   | _unset_                                                | Bing Webmaster verification        |
 
-Set them in Cloudflare Pages → project → Settings → Environment variables (production + preview) if you ever change the Worker URL or bind a custom domain.
+Production is built in GitHub Actions before upload to Cloudflare Pages. Store the verification values as GitHub Actions secrets named `GOOGLE_SITE_VERIFICATION` and `BING_SITE_VERIFICATION`; the deployment workflows expose them to Next.js at build time. Runtime-only Cloudflare Pages variables do not affect the prebuilt metadata.
 
 ## SEO checklist
 
-The site is configured for indexing out of the box: per-page titles, descriptions, canonical URLs, OpenGraph + Twitter cards, JSON-LD (`WebSite`, `CollectionPage`, `CreativeWork`, `BreadcrumbList`), `sitemap.xml`, and `robots.txt`.
+The site is configured for indexing out of the box: per-page titles, descriptions, canonical URLs, OpenGraph + Twitter cards, JSON-LD (`WebSite`, `CollectionPage`, `ItemList`, `HowTo`, `FAQPage`, `CreativeWork`, `BreadcrumbList`), `sitemap.xml`, and `robots.txt`. Dedicated server-rendered answers cover one-step installation at `/install` and `/zh/install`, plus free community character requests at `/request` and `/zh/request`.
 
 To actually surface in search results, do this once after the first deploy:
 
-1. **Google Search Console** — [search.google.com/search-console](https://search.google.com/search-console). Add the property, choose the HTML tag method, drop the verification token into `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`, redeploy, then submit `https://codexpet.top/sitemap.xml`.
-2. **Bing Webmaster Tools** — [bing.com/webmasters](https://www.bing.com/webmasters). Same idea via `NEXT_PUBLIC_BING_SITE_VERIFICATION`.
-3. **Canonical domain** — keep `NEXT_PUBLIC_SITE_URL` set to `https://codexpet.top` and permanently redirect the default Pages hostname to it so search engines see one authoritative origin.
-4. **External links** — once a few real sites link to the gallery (X, Reddit, GitHub topic pages, awesome-\* lists), Google will pick the site up much faster.
+1. **Google Search Console** — [search.google.com/search-console](https://search.google.com/search-console). Add the property, choose the HTML tag method, store the verification token as the GitHub Actions secret `GOOGLE_SITE_VERIFICATION`, redeploy, then submit `https://codexpet.top/sitemap.xml`.
+2. **Bing Webmaster Tools** — [bing.com/webmasters](https://www.bing.com/webmasters). Store its token as the GitHub Actions secret `BING_SITE_VERIFICATION`. The deployment workflows inject both secrets into the corresponding `NEXT_PUBLIC_*` variables at build time.
+3. **Canonical domain** — keep `NEXT_PUBLIC_SITE_URL` set to `https://codexpet.top`. Deployment attaches `www.codexpet.top` to Pages, and the generated `_worker.js` permanently redirects both `www` and the default Pages hostname to the apex domain.
+4. **Automatic discovery** — every production deployment submits the canonical sitemap URLs to IndexNow. This helps participating search engines such as Bing discover changes without a manual submission.
+5. **AI search access** — deployment verifies that `OAI-SearchBot` can retrieve the Chinese installation answer, `llms.txt`, and `robots.txt` from the production domain.
+6. **External links** — once a few real sites link to the gallery (X, Reddit, GitHub topic pages, awesome-\* lists), Google will pick the site up much faster.
+
+## GEO positioning
+
+Search pages and model-facing resources should describe Awesome Codex Pet consistently:
+
+- It is primarily a free community gallery for browsing, previewing, downloading, and installing Codex pets.
+- It works like a pet store or library, but it is not a paid marketplace or an official OpenAI product.
+- Anyone can submit a character request for free. Community contributors may volunteer to make it, but requests are not delivery promises.
+- Crafting and contribution documentation is a secondary contributor path, not the main visitor value proposition.
+
+`npm run build` enforces these claims in the home page, Chinese entry, request pages, sitemap, JSON-LD, and generated `llms.txt`.

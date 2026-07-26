@@ -144,16 +144,6 @@ export function SubmissionMenu() {
       }
     >
       <WorkflowAction
-        href={buildCodexUrl(submissionPrompt)}
-        title={t("submitPetWithAI")}
-        description={t("submitPetWithAIDesc")}
-        prompt={submissionPrompt}
-        copied={copiedPrompt === "submission"}
-        copyLabel={t("copyPromptShort")}
-        copiedLabel={t("copied")}
-        onCopy={(prompt) => void copyPrompt("submission", prompt)}
-      />
-      <WorkflowAction
         href={buildCodexUrl(requestPrompt)}
         title={t("requestPetWithAI")}
         description={t("requestPetWithAIDesc")}
@@ -162,6 +152,16 @@ export function SubmissionMenu() {
         copyLabel={t("copyPromptShort")}
         copiedLabel={t("copied")}
         onCopy={(prompt) => void copyPrompt("request", prompt)}
+      />
+      <WorkflowAction
+        href={buildCodexUrl(submissionPrompt)}
+        title={t("submitPetWithAI")}
+        description={t("submitPetWithAIDesc")}
+        prompt={submissionPrompt}
+        copied={copiedPrompt === "submission"}
+        copyLabel={t("copyPromptShort")}
+        copiedLabel={t("copied")}
+        onCopy={(prompt) => void copyPrompt("submission", prompt)}
       />
       <div className="my-1 border-t border-border" role="separator" />
       <a

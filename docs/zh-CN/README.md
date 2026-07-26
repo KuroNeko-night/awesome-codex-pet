@@ -4,15 +4,15 @@
 
 简体中文 | [English](../../README.md)
 
-<h2><a href="https://codexpet.top">进入 Codex 精品宠物画廊：codexpet.top →</a></h2>
+<h2><a href="https://codexpet.top">免费浏览并安装 Codex 小宠物：codexpet.top →</a></h2>
 
-<p><strong>网站是浏览和安装宠物的主要入口。</strong>你可以直接查看完整动作、作品与主题合集、作者主页和社区热度，无需克隆仓库即可安装喜欢的宠物。</p>
+<p><strong>Awesome Codex Pet 是免费的社区小宠物画廊。</strong>像逛宠物商店一样查看完整动画并一键安装；没有喜欢的角色时，还可以免费提交申请，社区贡献者可能会志愿制作。</p>
 
-<p><a href="https://codexpet.top"><strong>挑选宠物</strong></a> · <a href="https://codexpet.top/install"><strong>安装宠物</strong></a> · <a href="https://codexpet.top/guide"><strong>制作与投稿</strong></a></p>
+<p><a href="https://codexpet.top"><strong>挑选宠物</strong></a> · <a href="https://codexpet.top/zh/install"><strong>安装宠物</strong></a> · <a href="https://codexpet.top/zh/request"><strong>申请喜欢的角色</strong></a></p>
 
 <a href="https://codexpet.top"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="进入 Awesome Codex Pet 精品画廊"></a>
 
-![pets: 164](https://img.shields.io/badge/pets-164-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 165](https://img.shields.io/badge/pets-165-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -21,8 +21,9 @@
 ## 亮点
 
 - **一条命令安装** — 不需要克隆仓库，macOS / Linux / Windows 全平台支持
-- **精品宠物画廊** — [codexpet.top](https://codexpet.top) 提供完整动作预览、合集、作者署名、便捷分享和社区统计
-- **AI 优先投稿** — 在本地 Codex 中打开工作流，或复制提示词交给其他 AI；既可请求社区制作，也可制作并提交自己的宠物
+- **免费社区画廊** — [codexpet.top](https://codexpet.top) 提供完整动作预览、合集、作者署名、便捷分享和社区统计
+- **免费角色申请** — 不需要自己制作 spritesheet；提交角色和参考资料后，社区贡献者可能会志愿制作，但不承诺交付
+- **AI 优先投稿** — 贡献者可在 Codex 中制作、修复并提交自己的宠物，熟悉 Git 的用户也可以直接提交 PR
 - **非商用原则** — 正式许可证可选；没有正式许可证时必须明确禁止商用
 
 每只宠物都是一个很小的可分享包：
@@ -729,6 +730,13 @@ curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scr
 </table>
 
 <table>
+<tr><th>名称</th><td colspan="5"><a href="../../pets/jesse-the-fox--itjesse">阿博</a> · 作者 <a href="https://github.com/ITJesse">@ITJesse</a> · 原创角色 · v2</td></tr>
+<tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- jesse-the-fox--itjesse</code></td></tr>
+<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
+<tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/jesse-the-fox--itjesse/gifs/idle.gif" alt="阿博 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jesse-the-fox--itjesse/gifs/waving.gif" alt="阿博 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jesse-the-fox--itjesse/gifs/running-right.gif" alt="阿博 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jesse-the-fox--itjesse/gifs/waiting.gif" alt="阿博 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jesse-the-fox--itjesse/gifs/review.gif" alt="阿博 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>名称</th><td colspan="5"><a href="../../pets/joker--oytyo">Joker</a> · 作者 @oytyo · 原创角色 · v2</td></tr>
 <tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- joker--oytyo</code></td></tr>
 <tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
@@ -1260,9 +1268,11 @@ curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scr
 <tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/tiny-crt--chochou/gifs/idle.gif" alt="Tiny CRT idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/tiny-crt--chochou/gifs/waving.gif" alt="Tiny CRT waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/tiny-crt--chochou/gifs/running-right.gif" alt="Tiny CRT running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/tiny-crt--chochou/gifs/waiting.gif" alt="Tiny CRT waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/tiny-crt--chochou/gifs/review.gif" alt="Tiny CRT review" width="120" height="130"></td></tr>
 </table>
 
-## 投稿
+## 申请或投稿
 
-请从[网站上的制作与投稿指南](https://codexpet.top/guide)开始。为了避免每位投稿者都下载体积较大的素材仓库，我们提供三条路径：
+没有喜欢的角色时，请打开[免费社区制作申请页](https://codexpet.top/zh/request)。提交申请不收费，不需要自己准备 spritesheet，社区贡献者可能会志愿认领并制作；申请不代表承诺收录或交付。
+
+贡献者可以从[网站上的制作与投稿指南](https://codexpet.top/guide)开始。为了避免每位投稿者都下载体积较大的素材仓库，我们提供三条路径：
 
 1. **请求制作宠物** — Codex 先检查重复项、收集参考和制作要求，再创建带标签的请求 Issue。
 2. **制作或提交自己的宠物** — Codex 可以从参考图现场制作，也可以接收现成文件；完成三件套制作与校验后，通过 GitHub API 创建专用分支和 PR，无需完整克隆。
