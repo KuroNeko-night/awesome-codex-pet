@@ -3,18 +3,18 @@
   "pet_slug": "kuro-chibi",
   "author_slug": "kuroneko-night",
   "name": "Kuro Chibi",
-  "localized_names": { "en": "Kuro Chibi", "zh": "Kuro Q版" },
+  "localized_names": { "en": "Kuro Chibi", "zh": "Kuro Q\u7248" },
   "author": "KuroNeko-night",
   "author_handle": "KuroNeko-night",
   "author_url": "https://github.com/KuroNeko-night",
-  "primary_category": "Original Characters",
+  "primary_category": "Game Characters",
   "collections": [],
   "tags": [
     "catgirl",
     "chibi",
     "pastel",
     "cute",
-    "original-character",
+    "game-character",
     "codex",
     "v2"
   ],
@@ -31,5 +31,5 @@
     "contact_sheet": "../../assets/previews/kuro-chibi--kuroneko-night/contact-sheet.png",
     "gifs_dir": "../../assets/previews/kuro-chibi--kuroneko-night/gifs"
   },
-  "spritesheet_sha256": "865508969cedff2497a9b9721d6a68aecc5e0401c70997d88f0e60e9fcf4b623"
+  "spritesheet_sha256": "d2dedc1ed3262de7cdfaaca543dda8dbcb55e4816c73e0344038336048141ab3"
 }
